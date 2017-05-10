@@ -1,0 +1,49 @@
+.container
+{
+    display:table;
+    width: 100%;
+}
+
+.col-sm-4
+{
+    display: table-cell;
+}
+
+#boxHeader
+{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	box-shadow: 10px 10px 5px black;
+	color: white;
+	background-color:  #596789;
+	text-align: left;
+	font-size: 100%;
+	padding: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#boxQuarter
+{
+	box-shadow: 10px 10px 5px black;
+	color: white;
+	background-color:  #A4ACBD;
+	text-align: left;
+	font-size: 100%;
+	padding: 10px;
+	margin-top: -10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+ body
+ {
+ 	background-color: #011136;
+ }
+
+
+.subText
+{
+	color: black;
+	text-align: left;
+	font-size: 60%;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
