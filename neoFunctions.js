@@ -83,7 +83,7 @@ function getData()
 		}
 		else
 		{
-			neoHazard = "Hazardous";
+			neoHazard = "Potentially Hazardous";
 		}
 		var neoHazardNode = document.createTextNode(neoHazard);
 		fRowColO.appendChild(neoHazardNode);
