@@ -2,6 +2,7 @@
 {
     display:table;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .col-sm-4
@@ -11,11 +12,8 @@
 
 #boxHeader
 {
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-	box-shadow: 10px 10px 5px black;
 	color: white;
-	background-color:  #596789;
+	background-color:  #606060;
 	text-align: left;
 	font-size: 100%;
 	padding: 10px;
@@ -24,9 +22,8 @@
 
 #boxQuarter
 {
-	box-shadow: 10px 10px 5px black;
-	color: white;
-	background-color:  #A4ACBD;
+	color: #606060;
+	background-color:   #CCCCCC;
 	text-align: left;
 	font-size: 100%;
 	padding: 10px;
@@ -36,9 +33,28 @@
 
  body
  {
- 	background-color: #011136;
+ 	background-color: #ECECEC;
  }
 
+ img
+ {
+ 	margin-top: 10px;
+ 	width: 120px;
+ 	height: 120px;
+ }
+
+#one, #two, #three, #four
+{
+	background-color: #7A0026;
+	color: white;
+	text-align: left;
+	height: 150px;
+	padding: 10px;
+	text-indent: 50px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	box-shadow: 0 8px 6px -6px black;
+	margin-bottom: -1px;
+}
 
 .subText
 {
@@ -47,3 +63,45 @@
 	font-size: 60%;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+.banner
+{
+	background-color: #ECECEC;
+}
+
+.welcome
+{
+	font-size: 30px;
+	margin-top: 10px;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #606060;
+}
+
+.welcomeSubText
+{
+	margin-top: -30px;
+	text-align: center;
+	color: #606060;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+.center-pills 
+{
+	margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.nav-tabs
+a{
+	color: #606060;
+}
+
+.active a{
+    color: white !important;
+	background-color: #7A0026 !important;
+  }
