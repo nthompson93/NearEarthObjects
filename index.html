@@ -16,6 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nearing Earth</title>
 
+    <link href='//fonts.googleapis.com/css?family=Carme' rel='stylesheet'>
+
     <!-- Lines necessary for Bootstrap-->
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <!-- Latest compiled and minified CSS -->
@@ -38,10 +40,90 @@
 
   <!--********** HEAD END - AND - BODY BEGIN **********-->
 
-  <body onload="getData()">
-	  <div class="container"> <!-- CONTAINER ***** ROWS CONTAINED WITHING BOOTSRAP CONTAINER (BEGIN)-->
+  <body onload="hideDivs(), getData()">
+    <div class="banner">
+      <div class="container"> <!-- CONTAINER1 ***** ROWS CONTAINED WITHING BOOTSRAP CONTAINER (BEGIN)-->
+      <div class="row"> <!-- ROW (BEGIN)-->
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <img src="favicon.ico" alt="Earth Logo"></img>
+        </div>
+        <div class="col-xs-8 col-sm-4 col-md-4 col-lg-4">
+          <p class="welcome">Nearing Earth</p></br>
+          <p class="welcomeSubText">A simplified source for Near Earth Objects</p>
+        </div>
+      </div> <!-- ROW (END)-->
+      <div class="row"><!-- ROW (BEGIN)-->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+        <ul class="nav nav-tabs center-pills">
+          <li class="active"><a data-toggle="pill" onclick="Show(1)">Introduction</a></li>
+          <li><a data-toggle="pill" onclick="Show(2)">NEOs</a></li>
+          <li><a data-toggle="pill" onclick="Show(3)">Hazards</a></li>
+          <li><a data-toggle="pill" onclick="Show(4)">Social</a></li>
+        </ul>
+        <div class="container" id="one">
+          <div class="row">
+            <div class="col-xs-0 col-sm-2 col-md-2 col-lg-3">
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6">
+              <p>
+                Due to a White House mandate, agencies that are funded by the federal government must
+                make their research publicly available. Thankfully, NASA has created an “Open
+                Innovation” program that allows people to get creative with this public data. This
+                site specifically makes use of NASA’s NeoWs (Near Earth Object Web Service), which
+                provides data about near Earth objects based on the date that they are closest to the Earth.</br>
+                Data is updated everday at 12am EST.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="two">
+        <div class="row">
+            <div class="col-xs-0 col-sm-2 col-md-2 col-lg-3">
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6">
+              <p>
+                What exactly are Near Earth Objects?
+                According to NASA, “(NEOs) are comets and asteroids that have been nudged by the 
+                gravitational attraction of nearby planets into orbits that allow them to enter 
+                the Earth’s neighborhood.” Asteroids are the rocky material that orbit the sun and
+                are thought to be debris left over from the formation of the solar system. Comets 
+                are bodies composed mostly of water ice and frozen gasses, which have dust 
+                particles embedded in them. They are also thought to be debris from the solar system. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="three">
+        <div class="row">
+            <div class="col-xs-0 col-sm-2 col-md-2 col-lg-3">
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6">
+              <p>
+                What makes a NEO potentially hazardous?
+                At the moment, NEOs are deemed either potentially hazardous or non hazardous. To
+                be potentially hazardous means that the NEO is within .05 Astronomical Units of 
+                Earth (4,647,790 miles), an absolute magnitude of 22 H - Solar System Bodies)
+                or less, or have a diameter of at least 500 feet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="four">
+        <div class="row">
+            <div class="col-xs-0 col-sm-2 col-md-2 col-lg-3">
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6">
+              <p>
+               Under construction...
+              </p>
+            </div>
+          </div>
+      </div> <!-- ROW (END)-->
+    </div> <!-- CONTAINER1 ***** ROWS CONTAINED WITHING BOOTSRAP CONTAINER (END)-->
+    </div>
+	  <div class="container"> <!-- CONTAINER2 ***** ROWS CONTAINED WITHING BOOTSRAP CONTAINER (BEGIN)-->
   		<div class="row" id="buildTo"> <!-- ROW (BEGIN)-->
   		</div> <!-- ROW (END)-->
-    </div> <!-- CONTAINER ***** ROWS CONTAINED WITHING BOOTSRAP CONTAINER (END)-->
+    </div> <!-- CONTAINER2 ***** ROWS CONTAINED WITHING BOOTSRAP CONTAINER (END)-->
   </body>
 </html>

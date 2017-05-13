@@ -147,3 +147,36 @@ function addCommas(nStr){
  }
  return x1 + x2;
 }
+
+function hideDivs()
+{
+	document.getElementById("two").style.display = "none";
+	document.getElementById("three").style.display = "none";
+	document.getElementById("four").style.display = "none";
+}
+
+function Show(val) 
+{
+	if(val == 1)
+	{
+		var id = "one";
+	}
+	else if(val == 2)
+	{
+		var id = "two";
+	}
+	else if(val == 3)
+	{
+		var id = "three";
+	}
+	else 
+	{
+		var id = "four";
+	}
+	
+	document.getElementById("one").style.display = "none";
+	document.getElementById("two").style.display = "none";
+	document.getElementById("three").style.display = "none";
+	document.getElementById("four").style.display = "none";
+	document.getElementById(id).style.display = "block";
+}
